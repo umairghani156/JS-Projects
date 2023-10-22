@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow: hidden;
+}
+.bodyColor{
+    width: 100%;
+    position: absolute;
+    background-image: url('bg.jpg');
+    background-size: cover;
+}
+.parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 17%;
+   
+}
+.container{
+    width: 450px;
+    height: 180px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 10px;
+    transition: all 2s;
+}
+.container h1{
+    font-family: sans-serif;
+    width: 300px;
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    background-color: rgb(98, 179, 203);
+}
+.container button{
+    padding: 3px 10px;
+    font-size: 12px;
+    letter-spacing: 2px;
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.container button:hover{
+    padding: 2px 9px;
+}
+
+.parent2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 17%;
+}
+.container1{
+    width: 0px;
+    height: 150px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    transition: all 2s;
+    border-radius: 10px;
+    top: 38.5%;
+}
+.container1 h2{
+    font-family: sans-serif;
+    font-weight: 700;
+}
+.container1 i {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 25px;
+    color: brown;
+    cursor: pointer;
+}
+.container1 i:hover{
+    color: red;
+}

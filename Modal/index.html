@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modal</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="bodyColor">
+        <div class="parent">
+            <div class="container">
+                <h1>Modal Project</h1>
+                <button onclick="myHandler()">OPEN MODAL</button>
+            </div>
+        </div>
+        <div class="parent2" style="visibility: hidden;">
+            <div class="container1">
+                <h2>Modal Content</h2>
+                <i onclick="HiddenHandler()" class="fa-solid fa-xmark"></i>
+            </div>
+        </div>
+    </header>
+    <script src="app.js"></script>
+</body>
+
+</html>
