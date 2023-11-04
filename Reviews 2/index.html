@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="curveLine">
+        <div id="curveLine1"></div>
+        <div id="curveLine2"></div>
+        <div id="curveLine3"></div>
+    </div>
+    <div class="container">
+        <h1>Our Reviews</h1>
+        <div class="container2">
+            <div class="changes" id="changes2">
+                <div class="child1" id="firstSlide">
+                    <div class="quote">
+                        <i class="fa-solid fa-quote-right"></i>
+                    </div>
+                    <img src="./Assets/man-2.jpg" alt="">
+                    <p id="para1">Golding Smith</p>
+                    <p id="para2">WEB DEVELOPER</p>
+                    <p id="para3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere, aliquid deleniti
+                        explicabo dolorum,
+                        assumenda perferendis veritatis unde quod impedit, quod soluta error nostrum atque tempora
+                        eligendi
+                        vero varke
+                    </p>
+                    <div class="btnParent">
+                        <button id="btn" onclick="firstHandler()"><i class="fa-solid fa-less-than"></i></button>
+                        <button id="btn" onclick="backHandler()"><i class="fa-solid fa-greater-than"></i></button>
+                    </div>
+                    <button id="btn-2">Surprise Me</button>
+                </div>
+                <div class="child2" id="secondSlide" style="visibility: hidden;">
+
+                    <div class="quote2">
+                        <i class="fa-solid fa-quote-right"></i>
+                    </div>
+                    <img src="./Assets/man-3.jpg" alt="">
+                    <p id="para1">Michael Jackson</p>
+                    <p id="para2">GRAPHIC DESIGNER</p>
+                    <p id="para3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere, aliquid deleniti
+                        explicabo dolorum,
+                        , quod soluta error nostrum atque tempora eligendi
+                        vero varke
+                    </p>
+                    <div class="btnParent">
+                        <button id="btn" onclick="secondHandler()"><i class="fa-solid fa-less-than"></i></button>
+                        <button id="btn" onclick="backSHandler()"><i class="fa-solid fa-greater-than"></i></button>
+                    </div>
+                    <button id="btn-2">Surprise Me</button>
+                </div>
+                <div class="child1" id="thirdSlide" style="visibility: hidden;">
+                    <div class="nav3" id="top3" style="display: none;">
+
+                    </div>
+                    <div class="quote2">
+                        <i class="fa-solid fa-quote-right"></i>
+                    </div>
+                    <img src="./Assets/man-4.jpg" alt="">
+                    <p id="para1">William Smith</p>
+                    <p id="para2">(AI) ENGINEER</p>
+                    <p id="para3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere, aliquid deleniti
+                        explicabo dolorum,
+                        , quod soluta error nostrum atque tempora eligendi
+                        vero varke explicabo dolorum
+                    </p>
+                    <div class="btnParent">
+                        <button id="btn" onclick="thirdHandler()"><i class="fa-solid fa-less-than"></i></button>
+                        <button id="btn" onclick="backTHandler()"><i class="fa-solid fa-greater-than"></i></button>
+                    </div>
+                    <button id="btn-2">Surprise Me</button>
+                </div>
+                <div class="child3"></div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
